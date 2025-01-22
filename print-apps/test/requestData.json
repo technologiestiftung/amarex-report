@@ -1,6 +1,6 @@
 {
   "layout": "report",
-  "outputFormat": "png",
+  "outputFormat": "pdf",
   "attributes": {
     "title": "Hello",
     "datasource": [
