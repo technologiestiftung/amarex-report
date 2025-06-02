@@ -43,6 +43,9 @@ Ensure you have the following installed on your machine:
 **run image locally with amd64:**
 `$ docker run --platform linux/amd64 -d --name amarex-report -p 8080:8080 amarex-mapfish`
 
+***with logs:***
+`$ docker run --platform linux/amd64 --name amarex-report -p 8080:8080 amarex-mapfish`
+
 **refresh browser with empty cache**
 refresh browser with `cmd + shift + R`
 
