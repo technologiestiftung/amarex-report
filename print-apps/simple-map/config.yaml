@@ -1,0 +1,23 @@
+templates:
+  #===========================================================================
+  report:
+    !template #===========================================================================
+    reportTemplate: report.jrxml
+    attributes:
+      title: !string
+        default: "Basemap"
+      map: !map
+        maxDpi: 400
+        width: 842
+        height: 595
+      scalebar: !scalebar
+        width: 240
+        height: 40
+        default:
+          backgroundColor: "rgba(214, 214, 214, 200)"
+          align: "right"
+    processors:
+      - !reportBuilder
+        directory: "."
+      - !createMap {}
+      - !createScalebar {}

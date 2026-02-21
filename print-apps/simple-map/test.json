@@ -7,13 +7,11 @@
     "abimo_result_infiltration",
     "abimo_result_delta_w"
   ],
-  "layout": "plain",
+  "layout": "report",
   "attributes": {
     "map": {
       "dpi": 90,
       "projection": "EPSG:25833",
-      "width": 780,
-      "height": 660,
       "center": [390022.65937499993, 5819746.664453129],
       "scale": 5000,
       "layers": [
