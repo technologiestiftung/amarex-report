@@ -14,20 +14,17 @@
 	<parameter name="scalebarSubReport" class="java.lang.String"/>
 	<parameter name="title" class="java.lang.String"/>
 	<title height="595" splitType="Stretch">
-			<element kind="subreport" uuid="fa145068-76a5-4834-98ed-ce65b1976b3d" x="0" y="0" width="842" height="595">
-					<expression><![CDATA[$P{mapSubReport}]]></expression>
-			</element>
-			<element kind="subreport" uuid="fa145068-76a5-4834-98ed-ce65b1976b3d" x="602" y="555" width="240" height="40">
-					<expression><![CDATA[$P{scalebarSubReport}]]></expression>
-			</element>
-			<element kind="textField" uuid="3988392b-f1e2-4eda-9cb4-7caa2b3eb0cc" mode="Opaque" x="10" y="565" width="250" height="20" backcolor="rgba(255, 255, 255, 0.5882353)" fontSize="12.0" hTextAlign="Left" vTextAlign="Middle">
-					<expression><![CDATA[$P{title}]]></expression>
-					<box>
-							<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-							<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-							<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-							<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-					</box>
-			</element>
+		<element kind="subreport" uuid="fa145068-76a5-4834-98ed-ce65b1976b3d" x="0" y="0" width="842" height="595">
+			<expression><![CDATA[$P{mapSubReport}]]></expression>
+		</element>
+		<element kind="subreport" uuid="fa145068-76a5-4834-98ed-ce65b1976b3d" x="602" y="555" width="240" height="40">
+			<expression><![CDATA[$P{scalebarSubReport}]]></expression>
+		</element>
+		<element kind="textField" uuid="3988392b-f1e2-4eda-9cb4-7caa2b3eb0cc" mode="Opaque" x="10" y="555" width="290" height="30" backcolor="rgba(255, 255, 255, 0.5882353)" fontSize="10.0" textAdjust="StretchHeight" hTextAlign="Left" vTextAlign="Middle">
+			<paragraph leftIndent="10" spacingAfter="0"/>
+			<expression><![CDATA[$P{title}]]></expression>
+			<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+			<property name="com.jaspersoft.studio.unit.spacingAfter" value="px"/>
+		</element>
 	</title>
 </jasperReport>

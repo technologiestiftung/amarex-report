@@ -9,6 +9,7 @@
   ],
   "layout": "report",
   "attributes": {
+    "title": "Very Long Map Title to test",
     "map": {
       "dpi": 90,
       "projection": "EPSG:25833",
